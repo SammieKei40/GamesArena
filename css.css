@@ -1,0 +1,72 @@
+body{
+    padding: 0;
+    margin: 0;
+ background-color: black;
+}
+
+
+
+.navbar{
+    background-color: transparent;
+    position: relative;
+    z-index: 4;
+}
+
+.nav-link{
+    font-size: 14px;
+}
+
+main{
+    position: absolute;
+    top: 0%;
+    z-index: 0;
+}
+
+
+.site-wrapper{
+    height: 640px;
+}
+
+.carousel-control-prev .carousel-control-next{
+    width: 8%;
+}
+
+.card{
+    background-color: #ffffff;
+}
+
+.parallax{
+    background-image: url("image/8.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.parallax1{
+    background-image: url("image/12.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    height: 500px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 600px){
+    .site-wrapper{
+        height: 200px;
+    }
+
+ 
+    .col-md-4{
+        margin: 8% 0%;
+    }
+
+    .carousel-control-next, .carousel-control-prev{
+        display: none;
+    }
+}

@@ -40,15 +40,15 @@ main{
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    height: 500px;
+    height: 700px;
 }
 
 .parallax1{
-    background-image: url("image/12.jpg");
+    background-image: url("image/2.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: repeat;
-    height: 500px;
+    height: 700px;
 }
 
 

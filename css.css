@@ -12,8 +12,14 @@ body{
     z-index: 4;
 }
 
-.nav-link{
-    font-size: 14px;
+nav{
+    color: rgb(12, 213, 240);
+    background-color: powderblue;
+}
+
+.nav-link, .font-size{
+    font-size: 20px;
+    font-weight: 700;
 }
 
 main{
